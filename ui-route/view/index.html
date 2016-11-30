@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bowerApp">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <style>
+        #header a{
+            float: left;
+            width:140px;
+            background: hotpink;
+            color: #ffffff;
+            font-size: 20px;
+            font-family: "Microsoft YaHei", sans-serif;
+            height:70px;
+            line-height: 60px;
+            margin-right:10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div ui-view="header"></div>
+<div ui-view="content"></div>
+<!--<div ui-view="cc"></div>-->
+<script src="../scripts/app.js"></script>
+</body>
+</html>
